@@ -60,7 +60,7 @@ var readImage = fs.readFile('/Users/caoqing/Desktop/node/starbucks.png',(err, da
 var request = require('request');
 
 var EVENTBRITE_API_URL = 'https://www.eventbriteapi.com/v3/';
-var API_KEY = "7ROUAORWQV32MFJR5QUF";
+var API_KEY = "your api key";
 
 createEvent = function(title, description, logoid, start_timeZone,starttime,endtime,currency,category_name, callback) {
 
